@@ -2,7 +2,8 @@ import os, shutil
 import json
 import jsonpath
 
-file=open("FILE.json",'r')
+filename=input("输入文件位置\n")
+file=open(filename,'r')
 
 data=json.load(file)
 #print(data)
